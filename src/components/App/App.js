@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 import React from 'react';
-
+import { SearchResults } from '../SearchResults/SearchResults';
 
 
 class App extends React.Component {
@@ -20,7 +19,7 @@ class App extends React.Component {
       <SearchBar />
       <div class="App-playlist">
         <SearchResults searchResults={this.state.searchResults} />
-        <!-- Add a Playlist component -->
+        <p> Add a Playlist component </p>
       </div>
     </div>
   </div>
